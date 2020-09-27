@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -64,7 +64,7 @@ h4 {
   margin: 5px 0;
 }
 
-.money-plus {
+.money.plus {
   color: #2ecc71;
 }
 
@@ -93,7 +93,7 @@ input[type='number'] {
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
-  display: 0;
+  display: block;
   font-size: 16px;
   margin: 10px 0 30px;
   padding: 10px;
@@ -148,10 +148,4 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
-}
-
-@media (max-width: 320px) {
-  .container {
-    width: 300px;
-  }
 }
