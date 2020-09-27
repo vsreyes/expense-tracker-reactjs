@@ -1,5 +1,3 @@
-import { Transaction } from '../components/Transaction';
-
 export default (state, action) => {
   switch (action.type) {
     case 'DELETE_TRANSACTION':
@@ -12,7 +10,7 @@ export default (state, action) => {
     case 'ADD_TRANSACTION':
       return {
         ...state,
-        transaction: [action.payload, ...state.transactions],
+        transactions: [action.payload, ...state.transactions],
       };
     default:
       return state;
